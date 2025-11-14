@@ -1,0 +1,9 @@
+{
+  "watch": ["server"],
+  "ext": "js,json",
+  "ignore": ["server/**/*.test.js"],
+  "exec": "node server/server.js",
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
